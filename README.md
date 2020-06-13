@@ -1,1 +1,11 @@
 # restaurant-reservation
+
+Restoranda 3 çeşit mekan bulunmaktadır. Kapalı alan, balkon  ve teras. Her mekanda 2, 4, 6 ve 8 kişilik masalar vardır. Masa seçimini bu masalardan yapmazsa uyarı mesajı verilir ve tekrar masa seçtirilir. Müşterinin mekan ve masa seçimine göre ücretler değişir. Müşteriden hangi tarihte kaç kişilik masa istediği bilgisi alınır. Yer dolu ise uyarı mesajı verilir. Değilse ad soyad bilgileri de alınarak dosyaya kaydedilir. Müşteri bilgileri sözlük içinde tutulur. Bir müşteri 1 den fazla rezervasyon yapabilir. Müşteri arandığında tüm rezervasyon bilgileri görüntülenir. 
+ 
+Müşteri bilgileri güncelleneceği zaman müşterinin 1 den fazla rezervasyonu varsa hangi tarihteki rezervasyonunu güncellemek istediği sorulur. O tarihteki rezervasyon bilgileri gösterilir. Hangi bilgiyi güncellemek istediği sorulur. Güncellenmek istenen yerin daha önce başkası tarafından rezerve edilip edilmediğine bakılır. Yer dolu ise uyarı mesajı verilir ve güncelleme menüsüne yönlendirilir. Değilse müşteri bilgileri güncellenir ve dosyaya kaydedilir. Müşterinin 1 rezervasyonu var ise tarih bilgisinin sorulmasına gerek kalmaz. Hangi bilgiyi güncellemek istediği sorulur ve yukarıdaki adımlara devam eder.
+
+Rezervasyon iptal edilecekse müşterinin kaç rezervasyonu olduğuna bakılır. 1 den fazla ise tarih sorulur o tarihteki rezervasyon iptal edilir . 1 rezervasyonu varsa sadece o iptal edilir. 
+
+Ödeme kısmında müşterinin 1 den fazla rezervasyonu varsa hangi tarihteki rezervasyon fiyatını öğrenmek istediği sorulur. 1 rezervasyonu varsa gerek kalmaz. Müşterinin seçtiği mekana ve masaya göre fiyat belirlemesi yapılır. (Burada çok ayrıntıya girmedim kodda menü var) Eğer müşterinin 1 den fazla rezervasyonu varsa ödemesi gereken tutara %5, beşten fazla rezervasyonu varsa %10 indirim yapılır. 
+
+Müşteri çocuklu ise kaç adet çocuğu olduğu alınır. Çocukların yaşları alınır. Eğer 1 tane bile çocuğun yaşı 10 dan küçükse oyun parkını kullanmak isteyip istemeyeceği sorulur. Rezervasyona ek ücret ödeyecekleri söylenir. Cevap evet ise bakıcı isteyip istemediği de sorulur. Oyun parkı ve bakıcı ek fiyatları toplam tutara yansıtılır. Çocuk sayısı en fazla 2 ise toplam tutara %5, 2 den fazla ise %10 indirim yapılır. Müşteri oyun parkı ya da bakıcı istemiyor olabilir o zaman da sadece indirimden yararlanır. 
